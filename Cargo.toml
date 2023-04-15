@@ -77,7 +77,7 @@ alloc = ["ring/alloc"]
 std = ["alloc"]
 
 [dependencies]
-ring = { version = "0.16.19", default-features = false }
+ring = { git = "https://github.com/jacktemaki/ring", branch = "ring-0.17-riscv" }
 untrusted = "0.9.0"
 
 [dev-dependencies]
